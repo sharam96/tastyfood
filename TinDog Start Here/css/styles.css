@@ -1,0 +1,425 @@
+
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff8894;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3%  15%;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "montserrat-bold";
+    text-align: center;
+}
+
+h3{
+    font-family: "montserrat-bold";
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p{
+    padding: 30px;
+    color: #8f8f8f;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+  color: #fff;
+  }
+
+ .navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+   padding-left: 90px;
+}
+
+.navbar-item{
+    padding: 0 18px;
+}
+
+.navbar-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+    margin-bottom: 10px;
+}
+
+/* Download Buttons  */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.btn{
+    position: relative;
+}
+
+/* Tittle image */
+
+.title-image{
+    width: 60%;
+    border-radius: 25px;
+    position: relative;
+    left: 200px;
+    box-shadow: 5px 5px 20px #000000;
+}
+
+.tasty{
+ padding-left: 70px;   
+}
+
+.big-hello{
+    margin-left: 70px;
+}
+
+/* feature section */
+
+
+ #features{
+  padding: 7% 15%;
+  background-color: #fff;
+ }
+
+ .feature-box{
+     text-align: center; 
+ }
+
+ .chef{
+ width: 40%;
+ position: relative;
+ left: 30%;
+ }
+
+ .service{
+     width: 50%;
+     position: relative;
+     left: 25%;
+     border-radius: 25%;
+     margin: 1%;
+ }
+
+ .ok{
+     text-align: center;
+ }
+
+ .delivery{
+     width: 80%;
+ }
+
+ .food{
+     width: 40%;
+     border-radius: 25%;
+     margin: 25px;
+     box-shadow: 5px 5px 20px #000000;
+ }
+  
+
+ /* testimonial section */
+
+.food-order{
+  width: 25%;
+  position: relative;
+  left: 35%;
+  border-radius: 50px;
+  box-shadow: #000000;
+}
+
+.me-file {
+    background-color:#ff8894;
+    padding-top: 50px;
+    
+}
+
+.tasty-food{
+     width: 10%;
+     border-radius: 80%;
+     margin-top: 10%;
+     box-shadow: #000000;
+ }
+
+ .hello{
+     padding-top: 30px;
+ }
+ 
+ .kitchen{
+     width: 25%;
+     position: relative;
+     left: 35%;
+     border-radius: 20%;
+     box-shadow: #000000;
+ }
+
+ .non-veg{
+     width: 25%;
+     position: relative;
+     left: 35%;
+     border-radius: 20%;
+     box-shadow:#000000;
+ }
+
+ .vishal{
+     width: 10%;
+     position: relative;
+     border-radius: 30%;
+     left: -20%;
+ }
+
+/*  CTA Section */
+
+#cta{
+    background-color: #ff8894;
+    color: #000;
+    margin: -0%;
+    padding-top: 2%;
+}
+
+.parrot{
+    font-family: "montserrat-bold";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.sign-in{
+    position:relative;
+    left: 1%;
+    margin-left:35%;
+   
+}
+
+.log-in{
+    position: relative;
+    right: 10%;
+    margin-left: 10%;
+}
+
+/* Footer Section */
+
+#footer{
+    padding:-10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.lo{
+    text-align: center;
+}
+
+.social-icon{
+    position: relative ;
+    left: 48.5%;
+    margin-top: 80px;
+    
+}
+
+/* menu */
+
+:root {
+    --Inter: 'Inter', sans-serif;
+    --Kaushan: 'Kaushan Script', cursive;
+    --Mont: 'Montserrat', sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    line-height: 1.5;
+    font-family: var(--Mont);
+    background-color:#b22222;
+    margin: 2rem 0;
+}
+
+.menu-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.menu-head {
+    text-align: center;
+}
+
+.menu-head h2 {
+    font-family: var(--Kaushan);
+    font-size: 2.6rem;
+}
+
+.menu-head p {
+    font-weight: 300;
+    padding: 1.8rem 0;
+}
+
+.menu-btns {
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-btn {
+    font-family: var(--Inter);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: #ff9505;
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    transition: opacity 0.4s ease-out;
+}
+
+.menu-btn::after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ff9505;
+    margin-top: 0.5rem;
+    width: 0;
+    transition: width 0.4s ease-out;
+}
+
+.menu-btn:hover::after {
+    width: 100%;
+}
+
+.menu-btn:hover {
+    opacity: 0.8;
+}
+
+.active-btn {
+    color: #fff;
+}
+
+.food-items {
+    margin: 2rem 0;
+}
+
+.food-item {
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75);
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.food-img img {
+    border-radius: 4px;
+}
+
+.food-content {
+    padding: 1rem;
+}
+
+.food-name {
+    font-family: var(--Inter);
+    color: #ff9505;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #ff9505;
+}
+
+.food-price {
+    padding: 0.4rem 0;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.rating {
+    display: flex;
+    list-style: none;
+}
+
+.rating .fa-star {
+    margin-right: 0.4rem;
+    color: #44355b;
+}
+
+.category {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: var(--Inter);
+}
+
+.category span {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 600px) {
+    .food-item {
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        padding: 1rem;
+        column-gap: 1rem;
+    }
+
+    .food-content {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-head p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .menu-head p {
+        width: 50%;
+    }
+
+    .food-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
